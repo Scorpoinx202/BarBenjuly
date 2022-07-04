@@ -1,0 +1,110 @@
+*{
+	box-sizing: content-box;
+	/* align-items: center; */
+	margin: 0;
+	padding: 0;
+}
+
+body{
+
+	background-image: url(../imgs/back.jpg);
+	background-size: content-box;
+}
+a{
+	color:white;
+	text-decoration: none;
+}
+.conteiner ul{
+	list-style: none;
+	text-decoration-style: none;
+	position: absolute;
+	right: 0px;
+	
+}
+li{
+	padding-right: 2px;
+	margin-left: 8px;
+	margin-right: 8px;
+	float: left;
+}
+nav{
+
+	display: flex;
+	justify-content: safe left;
+	
+
+}
+.conteiner{
+	padding: 2em 4em;
+	background-color: #3798	
+}
+
+.logo{
+	position: absolute;
+	border-radius: 50px;
+	/* padding: 3px; */
+	margin: 4px;
+	left:0px;
+	top: 25px;
+	margin: 0px;
+	width: 80px;
+}
+/** Sections os productos**/
+.header h1{
+	padding-top: 4;
+	padding-bottom:4 ;
+	display: flex;
+	justify-content: center;
+}
+.header h1{
+	animation: color;
+	color;red, black ,blue;
+}	
+/*Productos*/ 
+.post .articles a ,h1 ,p{
+	display: flex;
+	-webkit-justify-content: center;
+	/* justify-content: center; */
+	padding: 8px 0;
+}
+
+section:hover{
+	background:linear-gradient(178deg, black, #04622e00);
+	cursor: pointer;
+}
+.articles h1 , .articles p {
+	color:
+	white;
+	height: 20px;
+}
+.articles:hover{
+	background:
+	linear-gradient(178deg, black, #04622e00);
+	cursor: pointer;
+	justify-content: center;
+}
+section article .sections{
+	margin-left:25%;
+	background: #5698;
+	border-radius: 60px;
+	width: 50%;
+	padding: 15px 25px 15px 25;
+}
+
+
+/*informacion de el sito*/
+
+.post-ref{
+	-webkit-align-content: center;
+	        align-content: center;
+	border-radius: 8px;
+	border-color: darkslategray;
+	margin: 8px;
+	background-color: rgb(24, 3, 4,0.4);
+	font-family: monospace;
+	color: aquamarine;
+	font-size:large;
+	margin: 4px;
+	align-content: center;
+
+}
